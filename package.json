@@ -1,0 +1,22 @@
+{
+  "name": "rgfilter",
+  "version": "1.0.0",
+  "description": "Command line filter using Raven's Gleaning ANSI conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevensmedia/rgfilter.git"
+  },
+  "author": "Neil Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevensmedia/rgfilter/issues"
+  },
+  "homepage": "https://github.com/stevensmedia/rgfilter#readme",
+  "dependencies": {
+    "ravens-gleaning": "git+https://github.com/stevensmedia/ravens-gleaning.git"
+  }
+}
