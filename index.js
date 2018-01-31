@@ -1,6 +1,7 @@
 var ravensgleaning = require('ravens-gleaning');
 var fs = require('fs');
+var util = require('util');
 
-var ansistring = fs.readSync(process.stdin.fd, 100, 0, "utf-8");
-var html = ravensgleaning.html(ansistring);
+var ansi = fs.readFileSync(process.stdin.fd);
+var html = ravensgleaning.html(ansi);
 fs.writeSync(process.stdout.fd, html);
