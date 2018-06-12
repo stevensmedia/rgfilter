@@ -9,5 +9,5 @@ try {
 	}
 	throw(err);
 }
-var html = ravensgleaning.html(ansi);
+var html = ravensgleaning.html(ansi, true);
 fs.writeSync(process.stdout.fd, html);
